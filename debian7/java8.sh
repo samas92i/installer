@@ -16,5 +16,5 @@ if [ $(verify_packet openjdk-8-jre) -eq 1 ]
 then
 	echo "Java 8 est déjà installé !"
 else
-	apt-get install -y openjdk-7-jre
+	apt-get install -y openjdk-8-jre
 fi
